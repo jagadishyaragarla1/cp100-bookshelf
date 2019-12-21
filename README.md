@@ -18,3 +18,11 @@ Used in the CP100A course - Collected sample code for the Bookshelf application.
 ## Licensing
 
 * See [LICENSE](LICENSE)
+
+
+
+For executing app engine:
+1. git clone  https://github.com/GoogleCloudPlatformTraining/cp100-bookshelf
+2. cd ~/cp100-bookshelf/app-engine
+3. pip install -r requirements.txt -t lib
+4. gcloud app deploy
